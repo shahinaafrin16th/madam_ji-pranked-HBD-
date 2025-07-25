@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loading...</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 20%;
+      font-size: 2em;
+    }
+    #msg {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="msg">
+    Hey madam ji.. u r pranked 😎<br>
+    Janamdin mubarak 🎉<br>
+    Ur bacha is waiting for ur reply.. HBD ❤️
+  </div>
+
+  <script>
+    setTimeout(() => {
+      document.getElementById("msg").style.display = "block";
+    }, 10000); // 10 seconds = 10000 milliseconds
+  </script>
+
+</body>
+</html>
